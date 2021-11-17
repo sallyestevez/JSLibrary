@@ -193,14 +193,6 @@ h2 {
   padding: 20px;
 }
 
-a[data-fancybox] img {
-  cursor: zoom-in;
-}
-
-.fancybox__caption {
-  text-align: center;
-}
-
 .NLA {
   display: flex;
   justify-content: center;
