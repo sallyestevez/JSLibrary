@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Didact+Gothic&family=Expletus+Sans&family=Heebo&family=Istok+Web&family=Jost&family=Kranky&family=Manjari&family=Megrim&family=Palette+Mosaic&family=Quicksand&family=Sen&family=Sigmar+One&family=Telex&family=Tenor+Sans&family=Thasadith&family=Train+One&family=Urbanist&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cambay&family=Didact+Gothic&family=Expletus+Sans&family=Heebo&family=Istok+Web&family=Jost&family=Kranky&family=Manjari&family=Megrim&family=Palette+Mosaic&family=Quicksand&family=Sen&family=Sigmar+One&family=Telex&family=Tenor+Sans&family=Thasadith&family=Train+One&family=Urbanist&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #4B8895;
-  font-family: 'Jost', sans-serif;
+  background-color: #4b8895;
+  font-family: "Jost", sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: #55A8AA;
+  background-color: #55a8aa;
   font-size: 16px;
 }
 
@@ -32,29 +33,31 @@ body, html {
   justify-content: space-around;
 }
 
-a, a:visited, a:active {
+a,
+a:visited,
+a:active {
   font-weight: bold;
-  color: #3A506B;
+  color: #3a506b;
   text-decoration: none;
 }
 
 .header a {
   float: left;
-  color: #3A506B;
+  color: #3a506b;
   text-decoration: none;
 }
 
 .header a:hover {
-  color: #0B132B;
+  color: #0b132b;
 }
 
 .tagline {
   text-align: center;
-  color: #A7F0E6;
+  color: #a7f0e6;
 }
 
 .section1 {
-  background-color: rgba(28, 37, 65, .8);
+  background-color: rgba(28, 37, 65, 0.8);
   padding: 20px;
 }
 
@@ -67,26 +70,36 @@ a, a:visited, a:active {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
-  color: #DFE1E2;
+  color: #dfe1e2;
   padding: 20px;
 }
 
-.mira1, .primordia1, .noctilum1, .oblivia1, .sylvalum1, .cauldros1 {
+.mira1,
+.primordia1,
+.noctilum1,
+.oblivia1,
+.sylvalum1,
+.cauldros1 {
   font-size: 30px;
   align-self: flex-end;
 }
 
-.mira2, .primordia2, .noctilum2, .oblivia2, .sylvalum2, .cauldros2 {
-  color: #DFE1E2;
+.mira2,
+.primordia2,
+.noctilum2,
+.oblivia2,
+.sylvalum2,
+.cauldros2 {
+  color: #dfe1e2;
   font-size: 18px;
   width: 50%;
-  color: #5BC0BE;
+  color: #5bc0be;
   font-weight: bold;
 }
 
 .questions {
-  background-color: #436C80;
-  color: #A7F0E6;
+  background-color: #436c80;
+  color: #a7f0e6;
   padding: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -94,19 +107,19 @@ a, a:visited, a:active {
 
 .question {
   font-size: 20px;
-  color: #6FFFE9;
+  color: #6fffe9;
   font-weight: bold;
 }
 
 .info {
-  background-color: #3A506B;
+  background-color: #3a506b;
 }
 
 .faqs {
   padding: 75px;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #5BC0BE;
+  color: #5bc0be;
 }
 
 #miraimg {
@@ -126,7 +139,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
-  color: #DFE1E2;
+  color: #dfe1e2;
   padding: 20px;
 }
 
@@ -139,7 +152,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
-  color: #DFE1E2;
+  color: #dfe1e2;
   padding: 20px;
 }
 
@@ -152,7 +165,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
-  color: #DFE1E2;
+  color: #dfe1e2;
   padding: 20px;
 }
 
@@ -165,7 +178,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
-  color: #DFE1E2;
+  color: #dfe1e2;
   padding: 20px;
 }
 
@@ -178,18 +191,18 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
-  color: #DFE1E2;
+  color: #dfe1e2;
   padding: 20px;
 }
 
 .location_tagline {
   text-align: center;
   font-size: 30px;
-  color: #A7F0E6;
+  color: #a7f0e6;
 }
 
 .locations {
-  background-color: #3A506B;
+  background-color: #3a506b;
   padding: 20px;
 }
 
@@ -201,7 +214,7 @@ h2 {
   height: auto;
   padding-left: 50px;
   padding-right: 50px;
-  color: #5BC0BE;
+  color: #5bc0be;
 }
 
 .New_LA {
@@ -214,8 +227,8 @@ h2 {
 }
 
 .areas {
-  background-color: #436C80;
-  color: #5BC0BE;
+  background-color: #436c80;
+  color: #5bc0be;
   padding: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -223,18 +236,173 @@ h2 {
   width: 100%;
   height: auto;
   display: flex;
-
 }
 
-.areas1, .areas2, .areas3 {
-  background-color: #436C80;
-  color: #5BC0BE;
+.areas1,
+.areas2,
+.areas3 {
+  background-color: #436c80;
+  color: #5bc0be;
   padding: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   flex: 1;
 }
 
-.primordia_img, .noctilum_img, .oblivia_img, .sylvalum_img, .cauldros_img {
+.primordia_img,
+.noctilum_img,
+.oblivia_img,
+.sylvalum_img,
+.cauldros_img {
   width: 100%;
+}
+
+@media only screen and (min-width: 469px) {
+  body,
+  html {
+    background-color: #5bc0be;
+  }
+
+  .header {
+    background-color: #1c2541;
+  }
+
+  a,
+  a:visited,
+  a:active {
+    color: #5bc0be;
+  }
+
+  .header a {
+    color: #5bc0be;
+  }
+
+  .header a:hover {
+    color: #6fffe9;
+  }
+
+  .header1 {
+    width: 20%;
+    display: flex;
+    padding-left: 10px;
+    justify-content: flex-start;
+  }
+
+  .header2 {
+    width: 80%;
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-around;
+  }
+
+  .tagline {
+    color: #0b132b;
+  }
+
+  .section1 {
+    background-color: rgba(91, 192, 190, 0.8);
+  }
+
+  .mira2,
+  .primordia2,
+  .noctilum2,
+  .oblivia2,
+  .sylvalum2,
+  .cauldros2 {
+    color: #dfe1e2;
+    font-size: 18px;
+    width: 100%;
+    color: #1c2541;
+    font-weight: bold;
+  }
+
+  .questions {
+    background-color: #55a8aa;
+    color: #3a506b;
+    padding: 10px;
+  }
+
+  .question {
+    color: #1c2541;
+  }
+
+  .faqs {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  body,
+  html {
+    background-color: #4b8895;
+  }
+
+  .header {
+    background-color: #55a8aa;
+  }
+
+  a,
+  a:visited,
+  a:active {
+    color: #3a506b;
+  }
+
+  .header a {
+    color: #3a506b;
+  }
+
+  .header a:hover {
+    color: #0b132b;
+  }
+
+  .header1 {
+    width: 30%;
+    display: flex;
+    padding-left: 20px;
+    justify-content: flex-start;
+  }
+
+  .header2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tagline {
+    color: #a7f0e6;
+  }
+
+  .section1 {
+    background-color: rgba(28, 37, 65, 0.8);
+  }
+
+  .mira2,
+  .primordia2,
+  .noctilum2,
+  .oblivia2,
+  .sylvalum2,
+  .cauldros2 {
+    color: #dfe1e2;
+    font-size: 18px;
+    width: 50%;
+    color: #5bc0be;
+    font-weight: bold;
+  }
+
+  .questions {
+    background-color: #436c80;
+    color: #a7f0e6;
+  }
+
+  .question {
+    color: #6fffe9;
+  }
+
+  .faqs {
+    padding: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
